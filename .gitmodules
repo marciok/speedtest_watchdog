@@ -1,0 +1,3 @@
+[submodule "utils/speedtest-cli-extras"]
+	path = utils/speedtest-cli-extras
+	url = https://github.com/HenrikBengtsson/speedtest-cli-extras
