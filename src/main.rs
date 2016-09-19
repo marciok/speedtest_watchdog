@@ -62,16 +62,6 @@ fn main() {
 fn upload(file_name: &str, created: bool) -> std::result::Result<(), drive3::Error> {
     let mut file_id: Option<String> = None;
 
-    /*let secret: ApplicationSecret = ApplicationSecret { 
-            client_id: "580329479294-28lfbft42lsi0hj46s2io88samqs4lcl.apps.googleusercontent.com".to_string(),
-            client_secret: "zazRbT78tI7wGwlQJoS6vD0r".to_string(),
-            project_id: Some("marcioklepacz".to_string()),
-            client_email: Some("marcioklepacz@gmail.com".to_string()),
-            auth_uri:AUTH_URI.to_string(),
-            token_uri:TOKEN_URI.to_string(),
-            ..ApplicationSecret::default()
-        };*/
-
     let secret: ApplicationSecret = ApplicationSecret { 
         client_id: env!("G_DRIVE_API_ID").to_string(),
         client_secret:env!("G_DRIVE_API_SECRET").to_string(),
