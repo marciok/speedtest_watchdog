@@ -1,11 +1,10 @@
 [package]
-name = "speed_test"
+name = "speedtest_watchdog"
 version = "0.1.0"
 authors = ["Marcio Klepacz <marcioklepacz@gmail.com>"]
 
 [dependencies]
 time = "0.1"
-csv = "0.14.7"
 rustc-serialize = "0.3"
 google-drive3 = "*"
 hyper = "*"

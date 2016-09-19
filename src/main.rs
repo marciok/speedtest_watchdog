@@ -1,4 +1,3 @@
-extern crate csv;
 extern crate time;
 extern crate hyper;
 extern crate yup_oauth2 as oauth2;
