@@ -1,4 +1,5 @@
-# Speedtest_Watchdog
+# ![alt text](https://i.imgsafe.org/1c5dd78eba.png) Speedtest_Watchdog
+
 Check your internet performance and upload the results on Google Drive.
 
 Do you think your internet is intermitent? Slower than was agreed on the contract?
