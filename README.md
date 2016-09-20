@@ -1,7 +1,7 @@
 # Speedtest_Watchdog
-Check your internet performance and upload the results to Google Drive.
+Check your internet performance and upload the results on Google Drive.
 
-Do you think your internet is intermitent, and slower than was agreed on your contract?
+Do you think your internet is intermitent? Slower than was agreed on the contract?
 If yes this tool, can be helpful. 
 **Speedtest_Watchdog** will check if you have access to the internet, verifies the speed, and upload eveything into a csv on Google Drive.
 
