@@ -4,7 +4,6 @@ version = "0.1.0"
 dependencies = [
  "google-drive3 0.1.15+20160901 (registry+https://github.com/rust-lang/crates.io-index)",
  "hyper 0.9.10 (registry+https://github.com/rust-lang/crates.io-index)",
- "rustc-serialize 0.3.19 (registry+https://github.com/rust-lang/crates.io-index)",
  "time 0.1.35 (registry+https://github.com/rust-lang/crates.io-index)",
  "yup-oauth2 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
