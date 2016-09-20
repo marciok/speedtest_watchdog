@@ -15,7 +15,12 @@ impl Speedtest {
             args.push("--header");
         }
 
-        let output = try!(Command::new("speedtest-csv").args(&args).output());
+        println!("Running command...");
+        let output = try!(Command::new("speedtest-csv")
+                          .args(&args)
+                          .output());
+        println!("speedtest-csv exited with status: {:?}", output.status.code());
+        assert!(output.status.success());
         let output_string = String::from_utf8(output.stdout).expect("Didn't get any result from speedtest-csv, make sure it's installed");
 
         Ok(output_string)

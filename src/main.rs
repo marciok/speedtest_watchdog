@@ -24,6 +24,6 @@ fn main() {
         };
 
         let uploader = Uploader::new(config);
-        println!("Finished: {:?}", uploader.upload(FILE, created));
+        println!("Finished: {:?} \n", uploader.upload(FILE, created));
     }
 }
