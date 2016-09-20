@@ -1,7 +1,7 @@
 # Speedtest_Watchdog
 Check your internet performance and upload the results to Google Drive.
 
-Do you think your internet is intermitent, and slower than what was agreed on your contract?
+Do you think your internet is intermitent, and slower than was agreed on your contract?
 If yes this tool, can be helpful. 
 **Speedtest_Watchdog** will check if you have access to the internet, verifies the speed, and upload eveything into a csv on Google Drive.
 
@@ -22,7 +22,7 @@ export G_DRIVE_API_EMAIL="loremipsum@loremipsum.com"
 ```
 4. Make sure `speedtest-csv` is reachable on your `$PATH`
 5. run `./target/release/speedtest_watchdog`
-6. Proofit!
+6. Profit!
 
 
 
