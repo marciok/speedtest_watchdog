@@ -15,8 +15,8 @@ impl Speedtest {
             args.push("--header");
         }
 
-        let output = try!(Command::new("utils/speedtest-cli-extras/bin/speedtest-csv").args(&args).output());
-        let output_string = String::from_utf8(output.stdout).unwrap();
+        let output = try!(Command::new("speedtest-csv").args(&args).output());
+        let output_string = String::from_utf8(output.stdout).expect("Didn't get any result from speedtest-csv, make sure it's installed");
 
         Ok(output_string)
     }

@@ -12,7 +12,7 @@ fn main() {
     let connected = TcpStream::connect(GOOGLE_DNS).is_ok();
     println!("Connected: {}", connected);
 
-    let created = writer::fill(FILE, connected).unwrap();
+    let created = writer::fill(FILE, connected).expect("Error while filling the csv");
 
     if connected {
         println!("Uploading file");

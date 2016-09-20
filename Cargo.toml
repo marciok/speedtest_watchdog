@@ -9,3 +9,6 @@ google-drive3 = "*"
 hyper = "*"
 yup-oauth2 = "*"
 
+[[bin]]
+name = "speedtest_watchdog"
+

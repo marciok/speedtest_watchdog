@@ -43,11 +43,11 @@ fn update(mut file: File, connected: bool) -> Result<()> {
 
 //3. Create using string dumped from command `speedtest-csv --header` 
 fn create(file_name: &str) -> Result<()> {
+    println!("File not found, creating one...");
     let speedtest = Speedtest{ add_header: true };
     let result = try!(speedtest.run());
     let s = &*result;
     
-    println!("File not found, creating one...");
     let mut file = try!(File::create(file_name));
     let _ = file.write_all(s.as_bytes());
 
